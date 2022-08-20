@@ -1,0 +1,21 @@
+.pallete {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.pallete__wrap {
+  margin: auto;
+}
+
+.palette__rgb {
+  width: 260px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  color: #fff;
+}
