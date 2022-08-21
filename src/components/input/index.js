@@ -7,7 +7,7 @@ export default function Input(props) {
   const handleChange = (evt) => {
     evt.preventDefault();
 
-    if (colorRef.current !== null && colorRef.current.value[0] === '#') {
+    if (colorRef.current !== null && colorRef.current.value[0] === '#' && colorRef.current.value.length === 7) {
       props.getColorCode(colorRef.current.value)
     } 
   };
